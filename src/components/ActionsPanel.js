@@ -1,6 +1,6 @@
-import uid from "../helpers/unique";
-import actions from "../helpers/actions";
-import ActionTrigger from "./ActionTrigger";
+import uid from '../helpers/unique';
+import actions from '../constants/actions';
+import ActionTrigger from './ActionTrigger';
 
 const ActionsPanel = () => (
   <div>
