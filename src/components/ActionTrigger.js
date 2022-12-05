@@ -1,4 +1,4 @@
-import { actionTrigger } from "../props";
+import actionTrigger from '../props/actionTrigger';
 
 const ActionTrigger = ({ action }) => (
   <button type="button" className="p-8">

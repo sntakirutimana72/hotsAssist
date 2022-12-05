@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  padding: 6px 15px;
+  margin: 8px;
+  outline: none;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+}
+
+button:hover {
+  color: white;
+  background: linear-gradient(to right, purple, blue);
+}
+
+button:focus {
+  color: white;
+  background: linear-gradient(to right, purple, orange);
+}
