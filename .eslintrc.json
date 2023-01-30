@@ -26,10 +26,10 @@
     "react/jsx-filename-extension": [
       "warn",
       {
-        "extensions": [".js", ".jsx"]
+        "extensions": [".ts", ".tsx"]
       }
     ],
-    "react/react-in-jsx-scope": "off",
+    "react/react-in-tsx-scope": "off",
     "import/no-unresolved": "off",
     "no-shadow": "off"
   },

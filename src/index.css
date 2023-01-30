@@ -1,26 +1,21 @@
 @tailwind base;
 @tailwind components;
+
+.trigger-btn {
+  @apply flex flex-col justify-center items-center gap-4 p-4 py-6 rounded-3xl shadow-shavy border border-around-60 focus:outline-none focus:shadow-down;
+}
+
+.trigger-dark {
+  @apply dark:bg-gradient-to-r dark:from-blue-800 dark:to-slate-800 dark:border-none;
+}
+
+/* .flexible-grid {
+  dispaly: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+} */
+
 @tailwind utilities;
 
 * {
   font-family: "Inter", sans-serif;
 }
-
-/* button {
-  cursor: pointer;
-  padding: 6px 15px;
-  outline: none;
-  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.16);
-  border-radius: 6px;
-  border: 1px solid #e8e8e870;
-}
-
-button:hover {
-  color: white;
-  background: linear-gradient(to right, purple, blue);
-}
-
-button:focus {
-  color: white;
-  background: linear-gradient(to right, purple, orange);
-} */
