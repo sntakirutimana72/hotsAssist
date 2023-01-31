@@ -1,11 +1,15 @@
-import { faPowerOff, faLock, faArrowsRotate } from '@fortawesome/free-solid-svg-icons';
+import {
+  faArrowsRotate,
+  faLock,
+  faPowerOff,
+} from '@fortawesome/free-solid-svg-icons';
 
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 export interface actionInterface {
-  name: string,
-  cmd: string,
-  icon: IconProp,
+  name: string;
+  cmd: string;
+  icon: IconProp;
 }
 
 export const actions: actionInterface[] = [

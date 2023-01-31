@@ -5,13 +5,13 @@ import './index.css';
 import App from './App';
 
 const rootElement = document.getElementById('root');
-if (rootElement == null) {
-  throw ':root not found in the DOM';
+if (rootElement === null) {
+  throw new Error(':root not found in the DOM');
 }
 const root = createRoot(rootElement);
 
 root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
