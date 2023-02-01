@@ -1,4 +1,4 @@
-![heading](https://user-images.githubusercontent.com/51259659/216113661-a78a596d-c456-4454-9e3b-9d780615d1c4.png)
+![Screenshot (93)](https://user-images.githubusercontent.com/51259659/216118239-2ec9742a-6485-44fc-8c5c-b0aa084738a2.png)
 
 A Chrome browser extension that executes system commands. It's developed to work with `MS Windows OS` only.
 
