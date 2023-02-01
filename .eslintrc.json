@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "jest": true
   },
   "extends": [
     "airbnb",
@@ -42,5 +43,9 @@
     "@typescript-eslint/no-use-before-define": [
       "error"
     ]
-  }
+  },
+  "ignorePatterns": [
+    "dist/",
+    "build/"
+  ]
 }

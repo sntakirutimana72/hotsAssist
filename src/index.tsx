@@ -6,7 +6,7 @@ import App from './App';
 
 const rootElement = document.getElementById('root');
 if (rootElement === null) {
-  throw new Error(':root not found in the DOM');
+  throw new Error('Root Element cannot be of type null');
 }
 const root = createRoot(rootElement);
 
