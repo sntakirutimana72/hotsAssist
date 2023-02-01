@@ -6,7 +6,7 @@ import { v4 as uuid4 } from 'uuid';
 import { actions } from '../constants/actions';
 import ActionTrigger from './ActionTrigger';
 
-function ActionsPanel() {
+const ActionsPanel = () => {
   const [keyword, setKeyword] = useState('');
   const onKeywordChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setKeyword(e.currentTarget.value.trim().toLocaleLowerCase());
@@ -44,6 +44,6 @@ function ActionsPanel() {
       </div>
     </div>
   );
-}
+};
 
 export default ActionsPanel;

@@ -3,7 +3,7 @@ import { actionInterface } from '../constants/actions';
 
 type Props = { action: actionInterface };
 
-function ActionTrigger({ action }: Props) {
+const ActionTrigger = ({ action }: Props) => {
   const onExecute = () => {
     // Call the api endpoints to complete the transition
   };
@@ -22,6 +22,6 @@ function ActionTrigger({ action }: Props) {
       <span className="text-lg dark:text-lime-100">{action.name}</span>
     </button>
   );
-}
+};
 
 export default ActionTrigger;

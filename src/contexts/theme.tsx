@@ -14,7 +14,7 @@ const themeContext = createContext<ThemeContextType>({});
 
 export const useTheme = () => useContext(themeContext);
 
-function ThemeProvider({ children }: Props) {
+const ThemeProvider = ({ children }: Props) => {
   const [darkMode, setMode] = useState<boolean | undefined>();
   const setTheme = useCallback(() => {
     setMode((state) => !state);
@@ -39,6 +39,6 @@ function ThemeProvider({ children }: Props) {
   return (
     <themeContext.Provider value={value}>{children}</themeContext.Provider>
   );
-}
+};
 
 export default ThemeProvider;

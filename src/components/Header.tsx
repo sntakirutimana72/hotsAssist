@@ -2,9 +2,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import { faSun } from '@fortawesome/free-regular-svg-icons';
 
-import { useTheme } from '../context/theme';
+import { useTheme } from '../contexts/theme';
 
-function Header() {
+const Header = () => {
   const { theme, setTheme } = useTheme();
 
   return (
@@ -28,6 +28,6 @@ function Header() {
       </button>
     </div>
   );
-}
+};
 
 export default Header;
