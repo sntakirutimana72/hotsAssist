@@ -1,6 +1,4 @@
-<h1 align="center" style="font-size: 8.05rem; padding: 10rem 0; border: none; background: #15121215; margin: 0; margin-bottom: 15px; color: yellow; font-weight: 700;">
-  Hots<i style="color: #20ff70;">Ass</i>ist
-</h1>
+![heading](https://user-images.githubusercontent.com/51259659/216113661-a78a596d-c456-4454-9e3b-9d780615d1c4.png)
 
 A Chrome browser extension that executes system commands. It's developed to work with `MS Windows OS` only.
 
