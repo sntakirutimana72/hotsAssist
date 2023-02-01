@@ -1,6 +1,6 @@
 {
-  "name": "System Quick Assist",
-  "description": "Hot system commands such as; shutdown, screen-lock, ...",
+  "name": "HotAssist",
+  "description": "Hot system commands such as shutdown, screen-lock, ...",
   "version": "1.0.0",
   "manifest_version": 3,
   "action": {

@@ -16,6 +16,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
+    "@types/babel__core": "^7.20.0",
     "jest-fetch-mock": "^3.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -25,11 +26,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "INLINE_RUNTIME_CHUNK=false react-scripts build",
+    "build:win": "set INLINE_RUNTIME_CHUNK=false&& react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "stylelint": "npx stylelint 'src/**/*.{css,scss}'",
+    "stylelint": "npx stylelint src/**/*.{css,scss}",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx}",
-    "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx}'"
+    "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx}"
   },
   "browserslist": {
     "production": [
@@ -43,14 +45,17 @@
       "last 1 safari version"
     ]
   },
+  "jest": {
+    "resetMocks": false
+  },
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/plugin-syntax-jsx": "^7.18.6",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
-    "@types/react": "18.0.25",
-    "@types/react-dom": "18.0.9",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
     "@types/uuid": "^9.0.0",
     "@typescript-eslint/eslint-plugin": "^5.50.0",
     "@typescript-eslint/parser": "^5.50.0",
